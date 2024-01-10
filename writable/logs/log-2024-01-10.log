@@ -1,0 +1,418 @@
+ERROR - 2024-01-10 13:12:28 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'db_martdbu', 3306, '', 0)
+#1 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\MartDBU\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\MartDBU\app\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MartDBU\app\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+#6 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(942): App\Controllers\Satuan->index()
+#7 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#8 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MartDBU\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\MartDBU\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\MartDBU\app\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\MartDBU\app\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+#5 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(942): App\Controllers\Satuan->index()
+#6 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#7 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MartDBU\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-01-10 13:12:28 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'db_martdbu', 3306, '', 0)
+#1 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\MartDBU\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\MartDBU\app\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MartDBU\app\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+#6 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(942): App\Controllers\Satuan->index()
+#7 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#8 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MartDBU\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\MartDBU\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\MartDBU\app\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\MartDBU\app\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+#5 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(942): App\Controllers\Satuan->index()
+#6 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#7 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MartDBU\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-01-10 13:12:28 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'db_martdbu', 3306, '', 0)
+#1 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\MartDBU\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\MartDBU\app\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MartDBU\app\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+#6 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(942): App\Controllers\Satuan->index()
+#7 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#8 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MartDBU\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\MartDBU\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\MartDBU\app\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\MartDBU\app\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+#5 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(942): App\Controllers\Satuan->index()
+#6 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#7 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MartDBU\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-10 13:12:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_satuan`', [], false)
+ 3 APPPATH\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Satuan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 13:12:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_satuan`', [], false)
+ 3 APPPATH\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Satuan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-10 13:12:28 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_satuan`', [], false)
+ 3 APPPATH\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Satuan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-10 13:13:41 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'db_martdbu', 3306, '', 0)
+#1 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\MartDBU\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\MartDBU\app\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MartDBU\app\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+#6 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(942): App\Controllers\Satuan->index()
+#7 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#8 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MartDBU\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\MartDBU\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\MartDBU\app\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\MartDBU\app\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+#5 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(942): App\Controllers\Satuan->index()
+#6 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#7 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MartDBU\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-10 13:13:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_satuan`', [], false)
+ 3 APPPATH\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Satuan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-10 13:24:46 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'db_martdbu', 3306, '', 0)
+#1 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\MartDBU\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\MartDBU\app\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MartDBU\app\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+#6 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(942): App\Controllers\Satuan->index()
+#7 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#8 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MartDBU\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\MartDBU\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\MartDBU\app\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\MartDBU\app\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+#5 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(942): App\Controllers\Satuan->index()
+#6 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#7 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MartDBU\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-10 13:24:46 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_satuan`', [], false)
+ 3 APPPATH\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Satuan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-10 13:24:52 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'db_martdbu', 3306, '', 0)
+#1 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\MartDBU\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\MartDBU\app\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MartDBU\app\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+#6 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(942): App\Controllers\Satuan->index()
+#7 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#8 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MartDBU\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\MartDBU\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\MartDBU\app\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\MartDBU\app\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+#5 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(942): App\Controllers\Satuan->index()
+#6 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#7 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MartDBU\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-10 13:24:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_satuan`', [], false)
+ 3 APPPATH\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Satuan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-10 13:25:03 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'db_martdbu', 3306, '', 0)
+#1 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\MartDBU\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\MartDBU\app\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MartDBU\app\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+#6 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(942): App\Controllers\Satuan->index()
+#7 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#8 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MartDBU\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\MartDBU\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\MartDBU\app\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\MartDBU\app\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+#5 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(942): App\Controllers\Satuan->index()
+#6 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#7 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MartDBU\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-10 13:25:03 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_satuan`', [], false)
+ 3 APPPATH\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Satuan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-10 13:25:18 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'db_martdbu', 3306, '', 0)
+#1 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\MartDBU\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\MartDBU\app\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MartDBU\app\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+#6 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(942): App\Controllers\Satuan->index()
+#7 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#8 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MartDBU\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: NO) in C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\MartDBU\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\MartDBU\app\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\MartDBU\app\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+#5 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(942): App\Controllers\Satuan->index()
+#6 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#7 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MartDBU\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-10 13:25:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_satuan`', [], false)
+ 3 APPPATH\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Satuan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-10 13:41:24 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'root', 'db_martdbu', 3306, '', 0)
+#1 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\MartDBU\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\MartDBU\app\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MartDBU\app\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+#6 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(942): App\Controllers\Satuan->index()
+#7 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#8 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MartDBU\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\MartDBU\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\MartDBU\app\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\MartDBU\app\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+#5 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(942): App\Controllers\Satuan->index()
+#6 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#7 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MartDBU\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-10 13:41:24 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_satuan`', [], false)
+ 3 APPPATH\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Satuan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-10 13:41:58 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'root', 'db_martdbu', 3306, '', 0)
+#1 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\MartDBU\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\MartDBU\app\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MartDBU\app\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+#6 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(942): App\Controllers\Satuan->index()
+#7 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#8 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MartDBU\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\MartDBU\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\MartDBU\app\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\MartDBU\app\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+#5 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(942): App\Controllers\Satuan->index()
+#6 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#7 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MartDBU\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-10 13:41:58 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_satuan`', [], false)
+ 3 APPPATH\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Satuan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-10 13:42:11 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', 'root', 'db_martdbu', 3306, '', 0)
+#1 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\MartDBU\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\MartDBU\app\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\MartDBU\app\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+#6 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(942): App\Controllers\Satuan->index()
+#7 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#8 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\MartDBU\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\MartDBU\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\MartDBU\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\MartDBU\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\MartDBU\app\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\MartDBU\app\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+#5 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(942): App\Controllers\Satuan->index()
+#6 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#7 C:\xampp\htdocs\MartDBU\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\MartDBU\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-10 13:42:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_satuan`', [], false)
+ 3 APPPATH\Models\Modelsatuan.php(11): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Satuan.php(23): App\Models\ModelSatuan->AllData()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Satuan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
